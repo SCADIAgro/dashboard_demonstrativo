@@ -93,9 +93,6 @@ header_demonstrativo = {
 
 with st.spinner("Carregando dados... "):
     
-    # Fazendo a requisição GET para consumir os dados
-    respostaDados = requests.get(url_demonstrativo, headers = header_demonstrativo)
-    respostaDados.raise_for_status()
     jsonDados = obter_registros(url_demonstrativo, header_demonstrativo)
 
     # Pegando a Safra 
