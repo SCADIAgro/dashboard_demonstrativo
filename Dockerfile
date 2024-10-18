@@ -4,9 +4,9 @@ FROM python:3.11.4
 
 WORKDIR /app
 
-COPY ./.streamlit .
-COPY ./fonts .
-COPY ./images .
+COPY ./.streamlit ./.streamlit
+COPY ./fonts ./fonts
+COPY ./images ./images
 COPY ./requirements.txt .
 COPY ./Dashboard.py .
 COPY ./styles.css .
