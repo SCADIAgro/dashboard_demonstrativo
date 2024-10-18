@@ -21,6 +21,10 @@
     display:none;
 }
 
+#stDecoration {
+    display:none;
+}
+
 /* Títulos */
 h2, h3 {
     color: #14C276;
